@@ -9,6 +9,5 @@ public class P170_Main {
         System.out.println(geometry.getCircular());
         System.out.println(geometry.getRectangle());
         System.out.println(geometry.getTriangle());
-
     }
 }
