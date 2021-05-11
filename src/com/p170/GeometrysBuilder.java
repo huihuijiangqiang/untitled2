@@ -1,5 +1,7 @@
 package com.p170;
 
+//ConcreteBuilder 具体生成器
+
 public class GeometrysBuilder implements GeometryBuilder{
     Geometry geometry;
 
@@ -19,7 +21,7 @@ public class GeometrysBuilder implements GeometryBuilder{
 
     @Override
     public void buildCircular() {
-        geometry.setCircular("建造原型");
+        geometry.setCircular("建造圆型");
     }
 
     @Override
