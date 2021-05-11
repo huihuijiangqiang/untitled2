@@ -7,15 +7,16 @@ public class long_type implements Handler{
     public void handleRequest(String number) {
         //判断是否为INT
         String flag="9223372036854774807";
-        if (number.compareTo(flag)<=0){
-            System.out.println("long");
-        }else {
+        if (number.length()<flag.length()){
+            System.out.println(Math.sqrt(Long.parseLong(number)));
+        }else if (number.length()==flag.length() && number.compareTo(flag)<0){
+            System.out.println(Math.sqrt(Long.parseLong(number)));
+        }
+        else {
             System.out.println("不是long");
             if (handler!=null)
                 handler.handleRequest(number);
         }
-
-
 
     }
 
@@ -24,5 +25,4 @@ public class long_type implements Handler{
         this.handler=handler;
     }
 
-   
 }
