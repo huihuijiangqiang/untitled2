@@ -1,4 +1,4 @@
-package com.Responsibility;
+package com.Responsibility.one;
 
 import java.util.*;
 public class Beijing implements Handler{
