@@ -23,7 +23,7 @@ public class WordDecorator extends ReadWord{
             int index = 0;
             while ((str = bufferedReader.readLine()) != null) {
                 String word = wordList.get(index);
-                word = word.concat(" | " + str);
+                word = word.concat(" | " + word.length());
                 wordList.set(index, word);
                 index++;
                 if (index > wordList.size()) {
