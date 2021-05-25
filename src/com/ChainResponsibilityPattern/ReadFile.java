@@ -17,7 +17,7 @@ public class ReadFile {
                 BufferedReader bufferedReader = new BufferedReader(read);
                 String lineTxt = null;
                 while((lineTxt = bufferedReader.readLine()) != null){
-                    s=s+lineTxt;
+                    s=s+lineTxt+"\n";
                 }
                 read.close();
             }else{
