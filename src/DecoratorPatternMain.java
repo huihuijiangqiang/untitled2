@@ -14,7 +14,5 @@ public class DecoratorPatternMain {
             System.out.println(s);
         }
 
-
-
     }
 }
