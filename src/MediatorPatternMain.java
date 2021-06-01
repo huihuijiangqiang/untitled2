@@ -9,7 +9,7 @@ public class MediatorPatternMain {
         tb = new TrafficLightB();
         m.trregister(ta);
         m.trregister(tb);
-        ta.send("绿灯");
+        ta.send("红灯");
         System.out.println("-------------------");
         tb.send("绿灯");
 
