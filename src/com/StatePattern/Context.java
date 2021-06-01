@@ -6,7 +6,6 @@ public class Context {
 
     public Context() {
         s1 = new HaveCoffeeNoCoin(this);
-
         s2 = new HaveCoffeeHaveCoin(this);
         s3 = new NoCoffee(this);
         state = s1;//初始状态
