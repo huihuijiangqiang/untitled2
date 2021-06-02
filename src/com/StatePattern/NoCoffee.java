@@ -9,11 +9,11 @@ public class NoCoffee implements State {
 
     @Override
     public void showMessage() {
-        System.out.println("No Coffee");
+        System.out.println("没有咖啡");
     }
 
     @Override
     public void giveAnCupCoffee() {
-        System.out.println("No Coffee1");
+        System.out.println("投币也没有咖啡");
     }
 }
